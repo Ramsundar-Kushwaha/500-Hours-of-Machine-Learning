@@ -1,10 +1,10 @@
-# 500 Hours of Machine Learning 🚀
+# 500 Hours of Machine Learning
 
 A structured 500-hour journey to learn Machine Learning from fundamentals to advanced concepts through detailed notes, mathematical intuition, hands-on implementations, practical exercises, and real-world projects.
 
 The primary focus of this repository is to develop a deep understanding of Machine Learning by learning the tools, concepts, algorithms, and mathematics together rather than studying them separately.
 
-## 🎯 Objectives
+## Objectives
 
 - Master Pandas and Scikit-learn from basic to advanced levels.
 - Understand fundamental and advanced Machine Learning concepts.
@@ -16,7 +16,7 @@ The primary focus of this repository is to develop a deep understanding of Machi
 - Build practical Machine Learning projects.
 - Develop the ability to train, evaluate, optimize, and deploy ML models.
 
-## 📚 Learning Structure
+## Learning Structure
 
 This repository focuses on the following areas:
 
@@ -87,7 +87,7 @@ Mathematics will be learned alongside Machine Learning concepts whenever require
 
 Practical projects to apply the concepts learned throughout this journey.
 
-## 🛠️ Technologies and Tools
+## Technologies and Tools
 
 - **Programming Language:** Python
 - **Data Analysis:** NumPy, Pandas
@@ -96,7 +96,7 @@ Practical projects to apply the concepts learned throughout this journey.
 - **Development Environment:** Jupyter Notebook, VS Code
 - **Version Control:** Git and GitHub
 
-## 📂 Repository Structure
+## Repository Structure
 
 ```text
 500-Hours-of-Machine-Learning/
@@ -128,7 +128,7 @@ Practical projects to apply the concepts learned throughout this journey.
 └── README.md
 ```
 
-## 📖 Learning Approach
+## Learning Approach
 
 Each topic will be studied using the following approach:
 
@@ -139,21 +139,7 @@ Each topic will be studied using the following approach:
 5. **Practice:** Solve exercises and experiment with datasets.
 6. **Real-World Application:** Apply the knowledge through practical projects.
 
-## 📈 Progress Tracker
-
-**Total Learning Target: 500 Hours**
-
-- [ ] Pandas: Basic to Advanced
-- [ ] Scikit-learn: Basic to Advanced
-- [ ] Machine Learning Fundamentals
-- [ ] Supervised Learning
-- [ ] Unsupervised Learning
-- [ ] Mathematics for Machine Learning
-- [ ] From-Scratch Implementations
-- [ ] Model Evaluation and Optimization
-- [ ] Real-World Projects
-
-## 🌱 Purpose of This Repository
+## Purpose of This Repository
 
 This repository serves as my personal Machine Learning knowledge base and learning journal.
 
@@ -168,11 +154,11 @@ I will continuously update it with:
 
 My goal is not simply to learn how to use Machine Learning libraries, but to understand how algorithms work internally, the mathematics behind them, and how they can solve real-world problems.
 
-## 🤝 Contributions
+## Contributions
 
 This repository primarily documents my personal learning journey. Suggestions, corrections, and constructive feedback are always welcome.
 
-## 📜 License
+## License
 
 This project is licensed under the [MIT License](LICENSE).
 
