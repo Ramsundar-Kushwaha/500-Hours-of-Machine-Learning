@@ -4,6 +4,8 @@
 
 A Transformer is an object in scikit-learn that changes or prepares data into a suitable format for machine learning model.
 
+<hr>
+
 ### Why do we need Transformers?
 
 We use transformers to:<br>
@@ -12,6 +14,8 @@ We use transformers to:<br>
 *III. Handle missing values.*<br>
 *IV. Create new features.*<br>
 *V. Reduce the number of features.*
+
+<hr>
 
 ### Types of Transfromers
 
