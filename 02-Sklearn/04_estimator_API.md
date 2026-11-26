@@ -104,3 +104,43 @@ print(hasattr(classifier, "predict_proba"))
 <hr>
 
 ### Estimator Cloning
+
+Scikit-Learn provides ```clone()``` to create a new estimator with the same configuration but without carrying over learned training attribute.
+
+Example:
+```
+from sklearn.base import clone
+from sklearn.tree import DecisionTreeClassifier
+
+model = DescisionTreeClassifier(max_depth=5)
+
+new_model = clone(model)
+
+print(new_model.get_params())
+```
+
+Both estimators have the same configuration, but new_model is a fresh, unfitted estimator. This is useful in cross-validation and model selection.
+
+<hr>
+
+### Types of Estimators
+
+Scikit-Learn estimators can be grouped according to what they do.
+
+#### 1. Regressors
+*I. Predict numerical values.*<br>
+*II. Example: House price prediction, temperature prediction.*
+
+#### 2. Classifiers
+*Predict categories or classes.*<br>
+*II. Example: Span or not spam, cat or dog.*
+
+#### 3. Transformers
+*I. change or prepare data into another form.*<br>
+*II. Example: Scaling numerical values, encoding categories.*
+
+#### 4. Clusters
+*I. Group similar data points together.*<br>
+*II. Example: Grouping customers based on their shoping behaviour.*
+
+In simple word, an estimator is an object in scikit-learn that learns something from data.
