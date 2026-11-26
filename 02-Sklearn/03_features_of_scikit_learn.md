@@ -157,3 +157,22 @@ They are useful for:<br>
 *III. Reducing repetitive code.*<br>
 *IV. Making model evaluation and cross-validation easier.*<br>
 *V. Creating reusable ML workflows.*
+
+<hr>
+
+## Limitations of Scikit-Learn
+
+### 1. Not a full deep learning framework
+*It is not designed for building complex deep neural networks.*
+
+### 2. Limited CPU Support
+*Its standard estimators primarily operates on CPUs*
+
+### 3. Not designed for raw unstructured data
+*Working directly with large collections of raw images, audios, and videos is not its primarly purpose.*
+
+### 4. Distribute training limitations
+*It is not designed as a distributed large-scale training framework.*
+
+### 5. Model deployment is not its primary purpose
+*You generally use additional tools and frameworks to build production APIs and deployment infrastructure.*
