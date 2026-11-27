@@ -4,7 +4,7 @@
 
 Machine Learning is the process of training a piece of software called models, to make useful prediction or generate content (like text, images, audio, or video) from data.
 
-<br>
+<hr>
 
 ### What is a Model?
 
