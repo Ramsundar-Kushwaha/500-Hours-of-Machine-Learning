@@ -8,52 +8,52 @@ A Transformer is an object in scikit-learn that changes or prepares data into a 
 
 ### Why do we need Transformers?
 
-We use transformers to:<br>
-*I. Scale numerical values.*<br>
-*II. Convert text categories into numbers.*<br>
-*III. Handle missing values.*<br>
-*IV. Create new features.*<br>
-*V. Reduce the number of features.*
+We use transformers to:
+- Scale numerical values.
+- Convert text categories into numbers.
+- Handle missing values.
+- Create new features.
+- Reduce the number of features.
 
 <hr>
 
 ### Types of Transfromers
 
 #### 1. Scalling Transformers
-*Used to bring numerical features into a suitable scale.*
+Used to bring numerical features into a suitable scale.
 
-Examples:<br>
-*```StandardScaler```*<br>
-*```MinMaxScaler```*<br>
-*```RobustScaler``` etc.*
+Examples:
+- ```StandardScaler```
+- ```MinMaxScaler```
+- ```RobustScaler``` etc.
 
 #### 2. Encoding Transformers
-*Used to convert categorical data into numerical values.*
+Used to convert categorical data into numerical values.
 
-Examples:<br>
-*```OneHotEncoder```*<br>
-*```OridinalEncoder```*<br>
-*```LabelEncoder``` etc.*
+Examples:
+- ```OneHotEncoder```
+- ```OridinalEncoder```
+- ```LabelEncoder``` etc.
 
 #### 3. Missing Value Tranformers
-*Used to fill missing values in datasets.*
+Used to fill missing values in datasets.
 
-Example:<br>
-*```SimpleImputer```*<br>
-*```KNNImputer```*
+Example:
+- ```SimpleImputer```
+- ```KNNImputer```
 
 #### 4. Feature Engineering Transformers
-*Used to create new features or modify existing features.*
+Used to create new features or modify existing features.
 
-Example:<br>
-*```PolynomialFeatures```*<br>
-*```FunctionTransfer```*<br>
-*```Binarizer```*
+Example:
+- ```PolynomialFeatures```
+- ```FunctionTransfer```
+- ```Binarizer```
 
 #### 5. Dimensionality Reduction Transformers
-*Used to reduce the number of features in a dataset.*
+Used to reduce the number of features in a dataset.
 
-Example:<br>
-*```PCA```*<br>
-*```TruncatedSVD```*<br>
-*```VarianceThreshold```*
+Example:
+- ```PCA```
+- ```TruncatedSVD```
+- ```VarianceThreshold```

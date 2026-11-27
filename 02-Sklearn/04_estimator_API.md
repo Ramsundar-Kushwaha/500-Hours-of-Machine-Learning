@@ -2,7 +2,7 @@
 
 Scikit-Learn follows a consistent API. most estimators follow this general patterns
 
-Example:<br>
+Example:
 ```
 # 1. import module
 from sklearn.linear_model import LinearRegression
@@ -22,33 +22,33 @@ score = model.score(X_test, Y_test)
 
 <hr>
 
-```fit()```<br>
-*Learns from data*<br>
-*Commonly used by all estimators*
+```fit()```
+- Learns from data
+- Commonly used by all estimators
 
-```predict()```<br>
-*Generate predictions*<br>
-*Commonly used by  predictors*
+```predict()```
+- Generate predictions
+- Commonly used by  predictors
 
-```transform()```<br>
-*Transform data*<br>
-*Commonly used by transformers*
+```transform()```
+- Transform data
+- Commonly used by transformers
 
-```fit_transform()```<br>
-*Fit and transform*<br>
-*Commonly used by transformers*
+```fit_transform()```
+- Fit and transform
+- Commonly used by transformers
 
-```score()```<br>
-*Evaluate performance*<br>
-*Used by many predictors*
+```score()```
+- Evaluate performance
+- Used by many predictors
 
-```get_params()```<br>
-*Retrieve configuration*<br>
-*Commonly used by Estimators*
+```get_params()```
+- Retrieve configuration
+- Commonly used by Estimators
 
-```set_params()```<br>
-*Modify configuration*<br>
-*Commonly used by Estimators*
+```set_params()```
+- Modify configuration
+- Commonly used by Estimators
 
 <hr>
 
@@ -68,15 +68,15 @@ print(model.coef_)
 print(model.intercept_)
 ```
 #### Parameters (Hyperparemeters)
-*I. Parameters configured before fitting.*<br>
-*II. Controlls model behaviour.*<br>
-*III. ```max_iter, c, max_depth, learning_rate``` etc.*<br>
-*IV. it is also called as Hyperparameters.*
+- Parameters configured before fitting.
+- Controlls model behaviour.
+- ```max_iter, c, max_depth, learning_rate``` etc.
+- it is also called as Hyperparameters.
 
 #### Learned attributes
-*I. Obtained during fitting.*<br>
-*II. Represent learned information*<br>
-*III. ```coef_, intercept_, classes_```*
+- Obtained during fitting.
+- Represent learned information
+- ```coef_, intercept_, classes_```
 
 The training underscore convention (```-```) is used for many attributes learned during fitting.
 
@@ -86,7 +86,7 @@ The training underscore convention (```-```) is used for many attributes learned
 
 Scikit-Learn also provide mechanism for inspecting estimator capabilities and requirements.
 
-For example:<br>
+For example:
 ```
 from sklearn.base import is_classifier, is_regressor
 from sklearn.linear_model import LogisticRegression, LinearRegression
@@ -128,19 +128,19 @@ Both estimators have the same configuration, but new_model is a fresh, unfitted 
 Scikit-Learn estimators can be grouped according to what they do.
 
 #### 1. Regressors
-*I. Predict numerical values.*<br>
-*II. Example: House price prediction, temperature prediction.*
+- Predict numerical values.
+- Example: House price prediction, temperature prediction.
 
 #### 2. Classifiers
-*Predict categories or classes.*<br>
-*II. Example: Span or not spam, cat or dog.*
+- Predict categories or classes.
+- Example: Span or not spam, cat or dog.
 
 #### 3. Transformers
-*I. change or prepare data into another form.*<br>
-*II. Example: Scaling numerical values, encoding categories.*
+- change or prepare data into another form.
+- Example: Scaling numerical values, encoding categories.
 
 #### 4. Clusters
-*I. Group similar data points together.*<br>
-*II. Example: Grouping customers based on their shoping behaviour.*
+- Group similar data points together.
+- Example: Grouping customers based on their shoping behaviour.
 
 In simple word, an estimator is an object in scikit-learn that learns something from data.
