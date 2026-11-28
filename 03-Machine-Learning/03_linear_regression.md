@@ -43,6 +43,36 @@ The diagram containing only 2 independent variable. diagram can be so much compl
 
 <hr>
 
+### Types of Linear Regression
+
+#### 1. Simple Linear Regression
+
+Models the relationship between one feature and one target using a straight line.
+
+- **Advantage:** Easy to interpret.
+- **Limitation:** Cannot capture non-linear patterns.
+
+#### 2. Multiple Linear Regression
+
+Uses multiple features to predict the target.
+
+- **Advantage:** captures combined effects of many variables.
+- **Limitation:** Sensitive to multicollinearity.
+
+#### 3. Polynomial Regression
+
+Transforms features into polynomial terms to model curved relationships while remaining linear in parameters.
+
+- **Advantage:** Captures non-linear trends.
+- **Limitation:** High-degree polynomials may overfit.
+
+#### 4. Regularized Linear Regression
+
+Includes **Ridge (L2)** and **Lasso (L1)** regression.
+
+- **Purpose:** Reduce overfitting by penalizing large coefficients.
+- **Lasso:** Can shrink some coefficients to zero (feature selection).
+
 **Key terms:**
 - Bias
 - Feature
