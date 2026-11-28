@@ -66,6 +66,8 @@ Based on the difference between the predicted and actual values called **loss**,
 
 During training, Ml practitioners can make subtle adjustments to the configurations and features the model uses to make predictions. For example certain feature have more predictive power that others. Therefor, ML practitioner can select which features the model uses during training.
 
+<hr>
+
 #### Evaluating
 
 We evaluate a trained model to determine how well it learned. When we evaluate a model, we use a labeled dataset, but we only give  the model the dataset's features. We then compare the model's predictions to the label's true values.
