@@ -47,6 +47,8 @@ The diagram containing only 2 independent variable. diagram can be so much compl
 
 Models the relationship between one feature and one target using a straight line.
 
+![simple linear regression](/images/simple-linear-regression.png)
+
 - **Advantage:** Easy to interpret.
 - **Limitation:** Cannot capture non-linear patterns.
 
