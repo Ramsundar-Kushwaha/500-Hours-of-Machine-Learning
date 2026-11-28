@@ -1,14 +1,22 @@
 ## Introduction to Machine Learning
 
+### Artificial intelligence (AI)
+
+Artificial intelligence refers to computer system or machines designed to simulate human intelligence processes. These processes include recognizing patterns, understanding languange, making decisions, solving problems, and learning from experience.
+
+Unlike traditional software that follows fixed instructions, AI system can improve their performance by analyzing large amounts of data and identifying patterns, allowing them to adapt to new situations.
+
 ### What is Machine Learning?
 
-Machine Learning is the process of training a piece of software called models, to make useful prediction or generate content (like text, images, audio, or video) from data.
+Machine learning is a subset of artificial intelligence that enables computers to learn patterns from data and make predictions or decisions without being explictly programmed.
+
+![AI-ML](/images/ai-machine-learning-deep-learning-venn.jpg)
 
 <hr>
 
 ### What is a Model?
 
-A model is a mathematical relationship derived from data that an Machine Learngin System uses to make predictions.
+A machine learning model is a computational program that learns relationships from data and uses them to perform tasks such as prediction, classification, or pattern detection. It encapsulates the knowledge extracted during training and generalizes it to new, unseen data.
 
 <hr>
 
@@ -23,6 +31,8 @@ III. Reinforcement Learning
 #### I. Supervised Learning
 
 Supervised Learning models can make predictions after seeing a lot of data with the correct output and then discovering the connection between the element in the data that produces the correct output.
+
+![supervised learning](/images/supervised-learning.webp)
 
 Supervised Learning models are further classified into two types:
 
