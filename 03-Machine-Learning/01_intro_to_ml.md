@@ -61,9 +61,11 @@ Classification models are further divided into two groups:
 
 #### II. Unsupervised Learning
 
+Unsupervised learning is a machine-learning approach where algorithm learn patterns directly from unlabeled data.
+
 An unsupervised learning model aims to identify meaningful patterns in a dataset. For example, many unsupervised learning models rely on a technique called clustering to organize simillar data into groups called 'clusters'.
 
-![figure here]()
+![unsupervised learning](/images/unsupervised-learning.webp)
 
 Clustering differs from Classification because the categories aren't defined by you. For example, an unsupervised model might cluster a whether dataset based on temperature, revealing segmentaiton that define the seasons. You might then attempt to name those clusters based on your understanding of the dataset.
 
@@ -76,6 +78,8 @@ A supervised approach is given data that contains the correct answer. The models
 Reinforcement learning models make predictions by getting rewards or penalties based on actions performed within an environment. A reinforcement learning systems generates a policy that defines the best strategy for getting the most rewards.
 
 Reinforcement learning is used to train robots to perform tasks like walking around a room, and software programs like AlphaGo to play the game of Go.
+
+![reinforcement learning](/images/reinforcement-learning.webp)
 
 <hr>
 
