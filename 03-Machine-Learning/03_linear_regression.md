@@ -73,6 +73,8 @@ Includes **Ridge (L2)** and **Lasso (L1)** regression.
 - **Purpose:** Reduce overfitting by penalizing large coefficients.
 - **Lasso:** Can shrink some coefficients to zero (feature selection).
 
+<hr>
+
 **Key terms:**
 - Bias
 - Feature
