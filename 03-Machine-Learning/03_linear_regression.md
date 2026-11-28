@@ -32,8 +32,6 @@ For multiple independent variables, we can write linear regression equation as:
 
 ```y' = b + w1x1 + w2x2 + w3x3 + ... + wnxn```
 
-![multiple linear regression](/images/Multiple-Linear-Regression.jpg)
-
 The diagram containing only 2 independent variable. diagram can be so much complex or impossible to imagine if there is more numbers of independent variables present.
 
 
@@ -56,12 +54,16 @@ Models the relationship between one feature and one target using a straight line
 
 Uses multiple features to predict the target.
 
+![multiple linear regression](/images/Multiple-Linear-Regression.jpg)
+
 - **Advantage:** captures combined effects of many variables.
 - **Limitation:** Sensitive to multicollinearity.
 
 #### 3. Polynomial Regression
 
 Transforms features into polynomial terms to model curved relationships while remaining linear in parameters.
+
+![polynomial linear regression](/images/polynomial_regression.jpg)
 
 - **Advantage:** Captures non-linear trends.
 - **Limitation:** High-degree polynomials may overfit.
