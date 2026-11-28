@@ -32,6 +32,10 @@ For multiple independent variables, we can write linear regression equation as:
 
 ```y' = b + w1x1 + w2x2 + w3x3 + ... + wnxn```
 
+![multiple linear regression](/images/Multiple-Linear-Regression.jpg)
+
+The diagram containing only 2 independent variable. diagram can be so much complex or impossible to imagine if there is more numbers of independent variables present.
+
 
 **Goal:** Minimize the difference between actual and predicted values (residuals).
 
